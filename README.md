@@ -1,26 +1,10 @@
-![IP Address Tracker](https://github.com/catherineisonline/ip-address-tracker-frontendmentor/blob/main/images/project-preview.png?raw=true)
+![IP Address Tracker]
 
 
 <h1 align="center">IP Address Tracker</h1>
 
-<div align="center">
-
-[Live](https://catherineisonline.github.io/ip-address-tracker-frontendmentor/)
-| [Solution](https://www.frontendmentor.io/solutions/ip-address-tracker-02_5ChONI)
-| [Challenge](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0)
-
-Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
-
-</div>
-
-
-
-
-## About The Project
-
-In this challenge, I will be using two separate APIs together to create an IP Address Tracking app.
-The main challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, I will be using the IP Geolocation API by IPify. So if you've got something you'd like to practice, feel free to give it a go.
-
+##Introduction
+IP Address Tracker is a web application that allows users to track IP addresses and domain locations using the IP Geolocation API by IPify. The app provides an interactive map view with key information about the location of the specified IP addresses or domains.
 
 Users should be able to:
 1. View the optimal layout depending on their device's screen size.
@@ -28,13 +12,13 @@ Users should be able to:
 3. See their own IP Address on the map on the initial page load.
 4. Search for any IP addresses or domains and see the key information and location.
 
+##Features
+Responsive layout that adapts to various screen sizes (mobile-first approach).
+Interactive elements with hover states for enhanced user experience.
+Automatic display of the user's own IP address and location on the map during the initial page load.
+Capability to search for any IP address or domain and view its key information and location on the map.
 
-I do not have access to the Figma sketch so the design is not pixel perfect.
-
-
-
-
-## Built with 
+## TechStack
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -43,23 +27,29 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 - Free IP Geo Location
 - Leaflet (map API)
 
-## What I learned
-This is my very first project on Frontend Mentor using API. I decided to spend more time on it from now on. I already have a project using API which was my very first experience, you can check it [here](https://github.com/catherineisonline/covid19-awareness) I decided not to spend too much time and effort on the design as my main goal here is practicing API.
+##Installation
+To set up the project locally, follow these steps:
 
-# Important Update
+-Clone the repository: git clone https://github.com/your-username/ip-address-tracker.git
+-Change into the project directory: cd ip-address-tracker
+-Open the index.html file in your preferred web browser.
 
-For some reason the limit of 1000 requests has ended very fast. Possible my API key isn't hidden well enough, I am not sure and didn't test it much. The limit doesn't seem to be available once it's used up and this project is not worth any financial investment right now. I changed to another API and hoping that it will work however it does lack some information like ISP, for example. For now I decided to leave this way. The new API I used is provided down below. 
-For some reason the gitignore is havin'g issues so I decided to keep the API key visible on purpose. 
+##Usage
+Once you have the project up and running, you can use the IP Address Tracker app to:
 
-## Useful resources
+1. View your own IP address and location on the map.
+2. Search for any IP address or domain by entering it in the search bar.
+3. See key information about the specified IP address or domain, including its location on the map.
 
-1. [Figma](https://www.figma.com/) - Paste your design image to check the size of containers, width, etc.
-2. [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - Awesome Chrome extension that helps you to match the pixels of the provided design.
-4. [Leaflet](https://geo.ipify.org/) - an open-source JavaScript library for mobile-friendly interactive maps
-5. [Free IP Geo Location](https://ipgeolocation.io/) - provides a free IP gelocation API for software developers I am currently using. This is a temporary replacement
+   
+##APIs
 
+The IP Address Tracker app utilizes the following APIs:
+-IP Geolocation API by IPify: Provides accurate geolocation data for IP addresses and domains.
 
+##Useful Resources
 
-## Acknowledgments
-
-A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/solutions/ip-address-tracker-02_5ChONI). It definitely helps to find new ways to code and find easier solutions! 
+-Figma: Use Figma to check the design's layout, container sizes, and dimensions.
+-Perfect Pixel: Chrome extension to match design pixels accurately.
+-Leaflet: An open-source JavaScript library for interactive maps.
+-Free IP Geolocation: Provides a free IP geolocation API for software developers.
